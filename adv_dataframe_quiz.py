@@ -20,15 +20,6 @@ def main():
 
     demographic_data = pd.read_csv("student_demo_data.csv")
     merged_data = merge_data(test_data, demographic_data)
-    
-    
-    
-    
-
-    
-    
-    
-    
 
 if __name__ == "__main__":
     main()
