@@ -1,4 +1,4 @@
-StudentName, Advisor, StudentID, Major, Year
+"StudentName", "Advisor", "StudentID", "Major", "Year"
 "Alice", "Dr. Green", "2001", "Physics", "Sophomore"
 "Bob", "Prof. Brown", "2002", "History", "Junior"
 "Charlie", "Dr. White", "2003", "English Literature", "Senior"
