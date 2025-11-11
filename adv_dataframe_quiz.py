@@ -67,10 +67,7 @@ def main():
     test_data = remove_any_missing_row(test_data)
     average = mean_score(test_data)
     
-    
-
-
-    demographic_data = pd.read_csv(raw_demo_data, dtype=str)
+    demographic_data = pd.DataFrame(raw_demo_data, dtype=str)
     merged_data = merge_data(test_data, demographic_data)
 
 if __name__ == "__main__":
